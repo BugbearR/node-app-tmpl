@@ -1,0 +1,23 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch product",
+      "program": "${workspaceFolder}/dist/index.js",
+      "openDebug": "openOnDebugBreak",
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch devel",
+      "program": "${workspaceFolder}/devel/index.js",
+      "openDebug": "openOnDebugBreak",
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
