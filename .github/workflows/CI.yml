@@ -43,7 +43,7 @@ jobs:
           CI: true 
 
       - name: Upload test coverage artifact
-        uses: action/upload-artifact@v1
+        uses: actions/upload-artifact@v1
         with:
           name: coverage
           path: coverage
