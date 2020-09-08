@@ -1,5 +1,5 @@
 # node-app-tmpl
-[![CI](https://github.com/BugbearR/node-app-tmpl/workflows/CI/badge.svg)]
+![CI](https://github.com/BugbearR/node-app-tmpl/workflows/CI/badge.svg)
 
 Template for Node.js application.
 
