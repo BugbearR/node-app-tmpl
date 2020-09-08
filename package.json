@@ -38,6 +38,8 @@
     "clean": "run-s clean:dist clean:devel",
     "clean:dist": "rimraf dist",
     "clean:devel": "rimraf devel",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "run-s test build:dist",
+    "postversion": "git push --follow-tags"
   }
 }
