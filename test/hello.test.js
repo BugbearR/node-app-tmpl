@@ -1,4 +1,4 @@
-import hello from "../esm/hello";
+import hello from "../src/hello";
 
 test('Hello, world!', () => {
     expect(hello('world')).toBe('Hello, world!');
